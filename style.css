@@ -134,7 +134,7 @@ p{
     }
 }
 
-@media screen and (max-width: 564px) {
+@media screen and (max-width: 575px) {
     .title-writer {
         font-size: 45px;
         color: #1d1d1d;
@@ -142,9 +142,11 @@ p{
         font-family: Lato, sans-serif;
         font-weight: 700;
         margin: 1rem 0 1rem 0;
-        
     }
 
+    .mar{
+        margin-bottom: 20px;
+    }
 
     .container-description{
         padding: 10vmin 20px 10vmin 20px;
