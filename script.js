@@ -19,7 +19,7 @@ function collapseOn() {
     var demo2 = document.getElementById("demo2");
     var demo3 = document.getElementById("demo3");
 
-    if (anchoPantalla < 992) {
+    if (anchoPantalla < 768) {
         demo1.classList.add("collapse");
         demo2.classList.add("collapse");
         demo3.classList.add("collapse");

@@ -23,22 +23,23 @@
     <div class="container">
         <div class="d-flex align-items-center justify-content-center" style="min-height: 100vh;">
             <div class="container border-col form-container p-5">
-                <h3 class="text-center">Contacteme</h3>
-                <form action="">
+                <h3 class="text-center">Contácteme</h3>
+                <form action="mailto:andreumagu@gmail.com" enctype="text/plain" method="post">
                     <div class="form-group">
-                        <label for="exampleInputEmail1">Nombre</label>
-                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Introduce tu nombre">
+                        <label for="exampleInputEmail1">Nombre:</label>
+                        <input type="text" class="form-control" id="nombre" name="Nombre" aria-describedby="emailHelp" placeholder="Introduce tu nombre">
                     </div>
                     <div class="form-group">
-                        <label for="exampleInputEmail1">Correo electrónico</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Introduce el correo">
+                        <label for="exampleInputEmail1">Correo electrónico:</label>
+                        <input type="email" class="form-control" id="email" name="Email" aria-describedby="emailHelp" placeholder="Introduce el correo">
                     </div>
                     <div class="form-group">
-                        <label for="exampleInputEmail1">Mensaje</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <label for="exampleInputEmail1">Mensaje:</label>
+                        <textarea class="form-control" id="texto" name="Texto" rows="5" placeholder="..."></textarea>
                     </div>
-                    <button type="submit" class="btn button-color">Submit</button>
+                    <button type="submit" class="btn button-color">Enviar</button>
                 </form>
+            <p id="p-number" class="m-0 mt-3"><a href="tel:+34603504062"><i class="bi bi-telephone-fill"></i>+34 603 504 062</a></p>
             </div>
         </div>
     </div>

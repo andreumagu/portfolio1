@@ -20,7 +20,7 @@ body{
 
 .title-writer {
     font-size: 6vmin;
-    color: #333333;
+    color: #1d1d1d;
     text-align: left;
     font-family: Lato, sans-serif;
     font-weight: 700;
@@ -142,6 +142,12 @@ p{
         font-family: Lato, sans-serif;
         font-weight: 700;
         margin: 1rem 0 1rem 0;
+        
+    }
+
+
+    .container-description{
+        padding: 10vmin 20px 10vmin 20px;
     }
 }
 
@@ -154,10 +160,15 @@ p{
         font-weight: 700;
         margin: 1rem 0 1rem 0;
     }
+
+    .container-description{
+        padding: 10vmin 20px 10vmin 20px;
+    }
+
 }
 
 .container-description{
-    padding: 10vmin 3vmin 10vmin 3vmin;
+    padding: 10vmin 20px 10vmin 20px;
 }
 
 .container-description p{
@@ -169,15 +180,6 @@ p{
     border: solid 1px #e6ecf8;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
-
-/* .fa-timeline{
-    height: 50px;
-    height: 50px;
-    background-color: #007bff;
-    border-radius: 50%;
-    padding: 5px;
-} */
-
 
 .icon-container {
     display: flex;
@@ -194,6 +196,21 @@ p{
     color: #6E07F3;
 }
 
+.contact-button{
+    height: 50px;
+    width: 150px;
+    border: solid 2px;
+    border-radius: 50px;
+    background-color: #FFF;
+    color: #6E07F3;
+}
+
+.contact-button:hover{
+    background-color: #6E07F3;
+    color: #fff;
+    transition: 0.3s;
+}
+
 .footer-color{
     background-color: #6E07F3;
 }
@@ -205,7 +222,7 @@ p{
 .icon-footer:hover{
     font-size: 40px;
     color: #ebebeb;
-    animation: 0.2ms;
+    transition: 0.3s;
 }
 
 li{
@@ -223,4 +240,12 @@ li{
 .button-color{
     background-color: #6E07F3;
     color: #FFF;
+}
+
+#p-number{
+    color: #333333;
+}
+
+#p-number a{
+    color: #333333;
 }
