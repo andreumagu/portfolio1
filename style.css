@@ -197,6 +197,8 @@ p{
 }
 
 .contact-button{
+    -webkit-appearance: none;
+    appearance: none;
     height: 50px;
     width: 150px;
     border: solid 2px;
