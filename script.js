@@ -30,6 +30,18 @@ function collapseOn() {
     }
 }
 
+function changeArrow() {
+    var arrow = document.getElementById("arrow");
+    if (arrow.classList.contains("bi-caret-down-fill")) {
+        arrow.classList.remove("bi-caret-down-fill");
+        arrow.classList.add("bi-caret-up-fill");
+    } else{
+        arrow.classList.remove("bi-caret-up-fill");
+        arrow.classList.add("bi-caret-down-fill");
+    }
+    
+}
+
 window.addEventListener("load", recolocarTitle);
 window.addEventListener("resize", recolocarTitle);
 
